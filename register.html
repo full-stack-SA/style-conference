@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="blueBg">
+        <div class="displayNav">  
+        <h2 class="logo caps text-xlarge text-weight-thin align-left">styles <br> conference</h2>
+        <div class="text-weight-thin text-align-right">
+            <span class="highlights text-midumeSmall  text-weight-thin">
+                <time datetime="">August 24-26th</time> <span>- Chicago, IL</span>
+            </span>
+            <nav class="headerNav caps" >
+                <ul class="nav text-smallNormal text-weight-thin">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./speakers.html">speakers</a></li>
+                    <li><a href="./schedule.html">schedule</a></li>
+                    <li><a href="./venue.html">venue</a></li>
+                    <li><a href="./register.html">register</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>  
+    </div>
+    </header>
+    <div class="container">
+        <div class="gradiant">
+            <h1 class="highlights text-xlarge text-weight-lighten">Register</h1>
+            <p class="text-normal text-weight-lighten">Every year we aim to have an unbelivable time, and this year we'd
+                love it for you to join us.
+                <br>
+                Conference passes only cost 99$, one of the best values you'll find.
+            </p>
+        </div>
+        <div class="widthCenter"></div>
+        <main class="align-left registerMain widthCenter">
+            <div class="purchase">
+                <section>
+                    <h2 class="highlights text-large text-weight-lighten">Purchase a conference pass</h2>
+                    <h4 class="caps text-small text-weight-thin">99$ per pass</h4>
+                    <p class="text-normal text-weight-lighten">Purchase your Styles Conference pass using the form to
+                        the right.
+                        Multiplile passes may be purchesed whithin the same order,
+                        so feel free to bring a friend or two along.
+                        Once your order is finished we'll follow up a receipt for yuor purchase. See you soon.</p>
+                </section>
+                <section>
+                    <h3 class="highlights text-normal text-weight-lighten">Why attend?</h3>
+                    <ul class="text-normal text-weight-lighten">
+                        <li>Over twenty world-class speakers</li>
+                        <li>One full-day workshop and two full days of presnetations</li>
+                        <li>Hosted at The Chicgo Theatre, a historical landmark</li>
+                        <li>August in Chicago is simply amazing</li>
+                    </ul>
+                </section>
+            </div>
+            <form action="http://stylesConference.com/register">
+
+                <div>
+                    <label class="highlights text-normal text-weight-lighten" for="name">Name</label>
+                    <input class="text-normal text-weight-lighten" type="text" name="fullName" id="name"
+                        placeholder="Full name">
+                </div>
+                <div>
+                    <label class="highlights text-normal text-weight-lighten" for="email">Email</label>
+                    <input class="text-normal text-weight-lighten" type="email" name="emailAdress" id="email"
+                        placeholder="Email address">
+                </div>
+                <div>
+                    <label class="highlights text-normal text-weight-lighten" for="passes">Number of passes</label>
+                    <select class="text-smallNormal text-weight-lighten" id="passed" name="passesNum">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                    </select>
+                </div>
+                <div>
+                    <label class="highlights text-normal text-weight-lighten" for="comments">Comments</label>
+                    <textarea class="text-normal" name="comments" id="comments" cols="20" rows="5"></textarea>
+                </div>
+                <div>
+                    <button class="caps text-weight-thin" id="purchaseBtn">Purchase</button>
+                </div>
+
+            </form>
+        </main>
+    </div>
+    <footer>
+        <small class="highlights">&copy;Styles Conference</small>
+        <nav class="footerNav">
+            <ul class="nav text-normal">
+                <li><a href="./index.html">home</a></li>
+                <li><a href="./speakers.html">speakers</a></li>
+                <li><a href="./schedule.html">schedule</a></li>
+                <li><a href="./venue.html">venue</a></li>
+                <li><a href="./register.html">register</a></li>
+            </ul>
+        </nav>
+
+    </footer>
+</body>
+
+</html>
